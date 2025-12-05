@@ -10,25 +10,18 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.ncp.eureka</groupId>
-	<artifactId>ncp-eureka-server</artifactId>
+	<groupId>com.spring.eureka</groupId>
+	<artifactId>spring-eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ncp-eureka-server</name>
-	<description>ncp-eureka-server</description>
+	<name>spring-eureka-server</name>
+	<description>spring-eureka-server</description>
 
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+    <scm>
+        <connection>scm:git:https://github.com/ushanna1990/spring-eureka-server.git</connection>
+        <developerConnection>scm:git:git@github.com:ushanna1990/spring-eureka-server.git</developerConnection>
+        <url>https://github.com/ushanna1990/spring-eureka-server</url>
+        <tag>HEAD</tag>
+    </scm>
 
 	<properties>
 		<java.version>21</java.version>
@@ -38,25 +31,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
